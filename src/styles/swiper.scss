@@ -1,0 +1,42 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: #FFBA08;
+
+  &::after {
+    @media(max-width: 425px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.swiper-button-prev {
+  left: 2rem;
+
+  @media(max-width: 425px) {
+    left: 1rem;
+  }
+}
+
+.swiper-button-next {
+  right: 2rem;
+
+  @media(max-width: 425px) {
+    right: 1rem;
+  }
+}
+
+.swiper-pagination-bullet {
+  background: #999999;
+  height: 16px;
+  opacity: 1;
+  width: 16px;
+
+  @media(max-width: 425px) {
+    height: 8px;
+    width: 8px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFBA08;
+}
